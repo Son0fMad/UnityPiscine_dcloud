@@ -1,0 +1,1336 @@
+Unity Editor version:    2021.3.4f1 (cb45f9cae8b7)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 10.14.6 (Build 18G9323)
+Darwin version:          18.7.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/goinfre/dcloud/2021.3.4f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/goinfre/dcloud/ProjectFolder/Dcloud_d02
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55859
+Successfully changed project path to: /goinfre/dcloud/ProjectFolder/Dcloud_d02
+/goinfre/dcloud/ProjectFolder/Dcloud_d02
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 103.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path /goinfre/dcloud/2021.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /goinfre/dcloud/ProjectFolder/Dcloud_d02/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+iMac preferred device: AMD Radeon Pro 570X (high power)
+Metal devices available: 1
+0: AMD Radeon Pro 570X (high power)
+Using device AMD Radeon Pro 570X (high power)
+Initializing Metal device caps: AMD Radeon Pro 570X
+Initialize mono
+Mono path[0] = '/goinfre/dcloud/2021.3.4f1/Unity.app/Contents/Managed'
+Mono path[1] = '/goinfre/dcloud/2021.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/goinfre/dcloud/2021.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56650
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /goinfre/dcloud/2021.3.4f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /goinfre/dcloud/2021.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.025598 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 95.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.923 seconds
+Domain Reload Profiling:
+	ReloadAssembly (924ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (546ms)
+			LoadAssemblies (220ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (134ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (322ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012325 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /goinfre/dcloud/ProjectFolder/Dcloud_d02/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /goinfre/dcloud/ProjectFolder/Dcloud_d02/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 94.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.462 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1462ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1207ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (310ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (599ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (361ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /goinfre/dcloud/2021.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4057 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (47.4 KB). Loaded Objects now: 4512.
+Memory consumption went from 261.7 MB to 261.7 MB.
+Total: 3.637554 ms (FindLiveObjects: 0.326860 ms CreateObjectMapping: 0.275987 ms MarkObjects: 2.955852 ms  DeleteObjects: 0.077921 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 628567.291395 seconds.
+  path: Assets/Sprites/Footman.png
+  artifactKey: Guid(8f88dbfbebfd4489d94a3160fe4f73d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Footman.png using Guid(8f88dbfbebfd4489d94a3160fe4f73d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7431f99ea61adb93f0e3db1434099aab') in 0.541703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Sprites/Orc.png
+  artifactKey: Guid(e152ba4ac574b4c1795587e4132ec6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Orc.png using Guid(e152ba4ac574b4c1795587e4132ec6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed12d4f6da3a33dc3b3c5a813e361bf') in 0.199605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Sprites/Orc Town.png
+  artifactKey: Guid(688756f0708394bf6aee9b0028a0ed8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Orc Town.png using Guid(688756f0708394bf6aee9b0028a0ed8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68a78359483646d3beeefb34a4c2b62') in 0.203519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Sprites/Human Town.png
+  artifactKey: Guid(2c3676f8cab8245f1bcaeaa4f0596a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Human Town.png using Guid(2c3676f8cab8245f1bcaeaa4f0596a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6349a984aacba22fc93a4784244bcc') in 0.178641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Sprites/Archer.png
+  artifactKey: Guid(638c8c27a8ea8469c8daefa0a49bbbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Archer.png using Guid(638c8c27a8ea8469c8daefa0a49bbbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe32177cc7cd0f5c8270823159c59c8a') in 0.169457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sprites/Tiles.png
+  artifactKey: Guid(a71122d8a75c64d98975e7c2ed4c958a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiles.png using Guid(a71122d8a75c64d98975e7c2ed4c958a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b158c4f556ad9d250a27d9ba1906674') in 1.190207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.594584 seconds.
+  path: Assets/Editor/MapEditor.cs
+  artifactKey: Guid(3f38c047cf7fd410986a84cd822d7901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/MapEditor.cs using Guid(3f38c047cf7fd410986a84cd822d7901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca878973baa5341c75af501725063529') in 0.138939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.377042 seconds.
+  path: Assets/Prefabs/Map.prefab
+  artifactKey: Guid(3fae31b33f1df4622a628af1e6d4d0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Map.prefab using Guid(3fae31b33f1df4622a628af1e6d4d0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dda0ccbaced64db9b3f115b235fd5e7') in 0.402279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 211.255381 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(6c7d22d9189c04986bb1241011756d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(6c7d22d9189c04986bb1241011756d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0c41190639de229f50295c2a873d0b') in 0.001064 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002395 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /goinfre/dcloud/ProjectFolder/Dcloud_d02/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /goinfre/dcloud/ProjectFolder/Dcloud_d02/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.100 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1111ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (838ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4046 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 4929.
+Memory consumption went from 280.2 MB to 280.1 MB.
+Total: 3.452368 ms (FindLiveObjects: 0.315179 ms CreateObjectMapping: 0.219587 ms MarkObjects: 2.852135 ms  DeleteObjects: 0.064686 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 33.100051 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24c38ded777c6eac716cf6ee885caa1') in 0.008196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.069950 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cd525f12c8ae8aad2ce6cbfea15f17') in 0.004547 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002327 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /goinfre/dcloud/ProjectFolder/Dcloud_d02/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /goinfre/dcloud/ProjectFolder/Dcloud_d02/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.147 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1148ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (894ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (315ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4046 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (23.6 KB). Loaded Objects now: 4932.
+Memory consumption went from 280.3 MB to 280.3 MB.
+Total: 3.564732 ms (FindLiveObjects: 0.355957 ms CreateObjectMapping: 0.277697 ms MarkObjects: 2.895837 ms  DeleteObjects: 0.033962 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 114.103972 seconds.
+  path: Assets/Prefabs/Tiles
+  artifactKey: Guid(06a8ec247b8fd41028bb0fab80136d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles using Guid(06a8ec247b8fd41028bb0fab80136d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339174588f48deb4ae79005f0159ad51') in 0.007024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.644627 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 1.prefab
+  artifactKey: Guid(1e5223f2286eb426598368c9c6fac70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 1.prefab using Guid(1e5223f2286eb426598368c9c6fac70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7da6b3590526972200c2f94e233050') in 0.060358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 3.prefab
+  artifactKey: Guid(c30419e72e4574b6ebe5aa38682b1611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 3.prefab using Guid(c30419e72e4574b6ebe5aa38682b1611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3475b974478c10b64c9aa329f3e26bd2') in 0.009680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 2.prefab
+  artifactKey: Guid(008ade45a83e64d06898ca00f55f621e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 2.prefab using Guid(008ade45a83e64d06898ca00f55f621e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe4a3437015176d3e3a341b3c94a4ad') in 0.010334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 1.prefab
+  artifactKey: Guid(84dd0a6075ef1419ba4550bfdf506445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 1.prefab using Guid(84dd0a6075ef1419ba4550bfdf506445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28abd6a42c3d85f3ae94188577e495f') in 0.008529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile.prefab
+  artifactKey: Guid(a23db8bbd3ce8498683cb396eaac1346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile.prefab using Guid(a23db8bbd3ce8498683cb396eaac1346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed854d8b9f598474d80c8bb201d827ad') in 0.008955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 14.prefab
+  artifactKey: Guid(b82bb111693e6416a9b1ca4db2b9b3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 14.prefab using Guid(b82bb111693e6416a9b1ca4db2b9b3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6336603089ac5c4ae187d371ae64919') in 0.008745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 8.prefab
+  artifactKey: Guid(6dc9454c3be7042eb8b7302f0dbd0515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 8.prefab using Guid(6dc9454c3be7042eb8b7302f0dbd0515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf91c9d54b1e1b2fb9b1e2f829bbece') in 0.009137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 7.prefab
+  artifactKey: Guid(8772a950ef1fb456285de2c1d5453fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 7.prefab using Guid(8772a950ef1fb456285de2c1d5453fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa07ff62dbc8e547041144cb0ea4932b') in 0.009196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 11.prefab
+  artifactKey: Guid(d10db0a96788449d2b42d34f35aebff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 11.prefab using Guid(d10db0a96788449d2b42d34f35aebff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6824d48bedcb167c09ddef33328fad12') in 0.010133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 23.prefab
+  artifactKey: Guid(3866abda7c0c04ea3b8e1effffc5b930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 23.prefab using Guid(3866abda7c0c04ea3b8e1effffc5b930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cfe9ac791b0e077fc2589e4752ab88') in 0.009335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 3.prefab
+  artifactKey: Guid(70dae3e3d93ed4c238c8bb80ce3a6a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 3.prefab using Guid(70dae3e3d93ed4c238c8bb80ce3a6a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3065c76eaed5ad765680b3bdf708fea') in 0.009565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 8.prefab
+  artifactKey: Guid(b868de3ec5d604bb08e10217512718de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 8.prefab using Guid(b868de3ec5d604bb08e10217512718de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b578231bef42e3ca1635c556f7078b95') in 0.009275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 13.prefab
+  artifactKey: Guid(f0965185dcc8a476699e760357510a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 13.prefab using Guid(f0965185dcc8a476699e760357510a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d204a501a7c8402fcfdd05bf28695c') in 0.009216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 15.prefab
+  artifactKey: Guid(765a6da9bebb344f19d042f6fa5e1072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 15.prefab using Guid(765a6da9bebb344f19d042f6fa5e1072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1624037be1417490973fdaaacce2f1') in 0.009487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 10.prefab
+  artifactKey: Guid(a41775547f9eb47fd9a355f563433a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 10.prefab using Guid(a41775547f9eb47fd9a355f563433a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17cb8ff87f2b3acdb5e4ca54b2d3f3c3') in 0.009171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 12.prefab
+  artifactKey: Guid(0bec6cbb37b064358bc96a0b86286a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 12.prefab using Guid(0bec6cbb37b064358bc96a0b86286a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24de3ed1386efd175915df141a28d41c') in 0.009418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 14.prefab
+  artifactKey: Guid(f2fe903be87b04a05a18135349ab0e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 14.prefab using Guid(f2fe903be87b04a05a18135349ab0e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5259a08ab4ce40e3661eb52c6e7191') in 0.010168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 16.prefab
+  artifactKey: Guid(b21b363d2708c415797cb7ca88c04e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 16.prefab using Guid(b21b363d2708c415797cb7ca88c04e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c77c4ecaa6b624709560b1cba44753f') in 0.009392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 19.prefab
+  artifactKey: Guid(ae6043d618aad492d808f63effc7b8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 19.prefab using Guid(ae6043d618aad492d808f63effc7b8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f56b9ebf374bb93634dc8676ec8efd2') in 0.008852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 9.prefab
+  artifactKey: Guid(ccd850047e6d94b80b567804041085ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 9.prefab using Guid(ccd850047e6d94b80b567804041085ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e79655ec26ebce7396baf9a6fef271') in 0.009509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 12.prefab
+  artifactKey: Guid(0d4516413088d41ae970446eaadbeb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 12.prefab using Guid(0d4516413088d41ae970446eaadbeb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5945bd1ce24cec2789cc408e2c2358') in 0.009739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 2.prefab
+  artifactKey: Guid(771491570710a4a0da9ac2b984f4faff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 2.prefab using Guid(771491570710a4a0da9ac2b984f4faff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884b9793286afbb7afe5beb684fd2c6b') in 0.009712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 6.prefab
+  artifactKey: Guid(aa467a5c0b839447497978ced45a33d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 6.prefab using Guid(aa467a5c0b839447497978ced45a33d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ca1ee8c437869af492e8b89fcf1aae') in 0.009791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 13.prefab
+  artifactKey: Guid(433ba8fe5d81c4c67bef34a6c50426fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 13.prefab using Guid(433ba8fe5d81c4c67bef34a6c50426fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae97f9b09b80db3ff5b29f70b2e3ba4') in 0.009290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 4.prefab
+  artifactKey: Guid(5881fe50edb094ba3879fb4b9a6d15ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 4.prefab using Guid(5881fe50edb094ba3879fb4b9a6d15ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0ee39096df3991082f869f44996483') in 0.009421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 5.prefab
+  artifactKey: Guid(77621186745ca4dec9edab19a70f176b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 5.prefab using Guid(77621186745ca4dec9edab19a70f176b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e469b4869c527b7391009a05f60b617') in 0.009082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 9.prefab
+  artifactKey: Guid(b5dbb62af365c455682475630816e0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 9.prefab using Guid(b5dbb62af365c455682475630816e0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c3905a00ee5353031949c67b2f5f99') in 0.009344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 24.prefab
+  artifactKey: Guid(8e9714749c7574cc2b86c13c392f8c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 24.prefab using Guid(8e9714749c7574cc2b86c13c392f8c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c801ba1e7d79a93322993b77750a6f') in 0.009706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 15.prefab
+  artifactKey: Guid(5bd85fd86d23a4a27a2dcb313f31c8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 15.prefab using Guid(5bd85fd86d23a4a27a2dcb313f31c8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f422f4e205323d127f49895012ed1547') in 0.009628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 17.prefab
+  artifactKey: Guid(6b2fe20eacbda44cb94e0e3ec1c3c235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 17.prefab using Guid(6b2fe20eacbda44cb94e0e3ec1c3c235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09df4286a553008feaf99eb4a11e1dd') in 0.009408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 22.prefab
+  artifactKey: Guid(0f550f2bc20714f0386c8ac20933dca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 22.prefab using Guid(0f550f2bc20714f0386c8ac20933dca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efca555643fa3d43e74fafffdf39ecd6') in 0.009346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 18.prefab
+  artifactKey: Guid(1ae72755e2fbb492482e167a1a4c1c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 18.prefab using Guid(1ae72755e2fbb492482e167a1a4c1c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6357a021b492153ad8884a4155baed7') in 0.009726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 5.prefab
+  artifactKey: Guid(a37bec36cc75545c5b2a9678f69f433e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 5.prefab using Guid(a37bec36cc75545c5b2a9678f69f433e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9016ef7952d281dff81408d06ed7a67d') in 0.009964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 20.prefab
+  artifactKey: Guid(d1fee66023421403faee85a32a35cb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 20.prefab using Guid(d1fee66023421403faee85a32a35cb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b541c6a74b520d120c5053de7aea041b') in 0.009167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 25.prefab
+  artifactKey: Guid(0da592bf7cd474b678ed0a7f9694362e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 25.prefab using Guid(0da592bf7cd474b678ed0a7f9694362e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cfe0859b885f76eaa08c08fe45a369') in 0.009331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 10.prefab
+  artifactKey: Guid(24d5841c1eed44943beb5fa0134b26c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Water Horizontal Tile 10.prefab using Guid(24d5841c1eed44943beb5fa0134b26c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4a933d19743bf08ee9af68fb79c7a8') in 0.009280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 4.prefab
+  artifactKey: Guid(547b2e3557c82443ca77b12fecce85a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 4.prefab using Guid(547b2e3557c82443ca77b12fecce85a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f18be220f4aca4e82cb1951e4caca51') in 0.008764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 21.prefab
+  artifactKey: Guid(3693fbc8578cc4062a1dec259f7abe84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 21.prefab using Guid(3693fbc8578cc4062a1dec259f7abe84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cdb5daa9b270c671b02d9530b731fa') in 0.008979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 6.prefab
+  artifactKey: Guid(4cf308d0c3e7044048ebed5dcc79732c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 6.prefab using Guid(4cf308d0c3e7044048ebed5dcc79732c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e268d7de74023f404cf73ff86edab35') in 0.010002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 7.prefab
+  artifactKey: Guid(b3d26ce5894484e3fba00ee97020ab92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 7.prefab using Guid(b3d26ce5894484e3fba00ee97020ab92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068f3d7944e88d6812de2351be9f9b72') in 0.008876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Tile 11.prefab
+  artifactKey: Guid(e227576f5f9c84798bf06d18ac08546d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Tile 11.prefab using Guid(e227576f5f9c84798bf06d18ac08546d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bfb7b91330a825eb0ed902e2978e93') in 0.009788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.416501 seconds.
+  path: Assets/Prefabs/Tiles/Dirt Water Horizontal Tile.prefab
+  artifactKey: Guid(4f08d95467048446ca217a5e1a074e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Dirt Water Horizontal Tile.prefab using Guid(4f08d95467048446ca217a5e1a074e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314fd57141f9d01d704c16001d45737b') in 0.010644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 1.prefab
+  artifactKey: Guid(6fdd89b7edbd44912b66ba043f56c1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 1.prefab using Guid(6fdd89b7edbd44912b66ba043f56c1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac1db3000849769dcbcb3d13e05073f') in 0.009820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 14.prefab
+  artifactKey: Guid(f0a74ee465793462793fdc954227c5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 14.prefab using Guid(f0a74ee465793462793fdc954227c5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cacdf870bde89128ee54d449e836508') in 0.010075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 28.prefab
+  artifactKey: Guid(29a6e859a0a6443e9b87a397fdfdedad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 28.prefab using Guid(29a6e859a0a6443e9b87a397fdfdedad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e676a9d17e2e422fad8d1109f399e82c') in 0.009662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 13.prefab
+  artifactKey: Guid(5de36e2884074425eba96fceb14eda26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 13.prefab using Guid(5de36e2884074425eba96fceb14eda26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322a1168a0654b4b6f5679ab8aeac121') in 0.009880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 5.prefab
+  artifactKey: Guid(2f4d412c0432843a79dcd25b36622431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 5.prefab using Guid(2f4d412c0432843a79dcd25b36622431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd944588846fc3de103bd1cf733dc0634') in 0.009796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 2.prefab
+  artifactKey: Guid(8814c9044e56547b4af76bdb4c32e104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 2.prefab using Guid(8814c9044e56547b4af76bdb4c32e104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6b3947690f913422ceebf83101f91b') in 0.009239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 7.prefab
+  artifactKey: Guid(76d8ee4327a624b808d124aba4b550c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 7.prefab using Guid(76d8ee4327a624b808d124aba4b550c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4296a3fe7d354efbae6763e2033fe72a') in 0.009786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 1.prefab
+  artifactKey: Guid(d0c112502da914cb6a6cca5994f70e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 1.prefab using Guid(d0c112502da914cb6a6cca5994f70e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf92b1e8820261dc0647803ffee3e81') in 0.009550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 21.prefab
+  artifactKey: Guid(0f618f70c47f34bc29aeaaaaf489506c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 21.prefab using Guid(0f618f70c47f34bc29aeaaaaf489506c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13d94b790632f7bfe4b75c077c82131') in 0.009309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 4.prefab
+  artifactKey: Guid(6943252b01d6043ef91f628f8ce6d3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 4.prefab using Guid(6943252b01d6043ef91f628f8ce6d3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384bfe49743497c0332bcdfedacd7af7') in 0.009696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 22.prefab
+  artifactKey: Guid(0ef1dd4bc7f8844b6b676fb111b64278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 22.prefab using Guid(0ef1dd4bc7f8844b6b676fb111b64278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b4faee10c49b9c0847d0cc69dc6782') in 0.009778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 8.prefab
+  artifactKey: Guid(b0a5bcb11e5384cadb35917a74b551d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 8.prefab using Guid(b0a5bcb11e5384cadb35917a74b551d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b673fd71e5f4e454ec5ef2a23943161') in 0.009334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 29.prefab
+  artifactKey: Guid(0336a2d4a2ffd413e9bd2d4b58531f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 29.prefab using Guid(0336a2d4a2ffd413e9bd2d4b58531f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f150ff0991d29dd18f46c32bc7011c70') in 0.009456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 23.prefab
+  artifactKey: Guid(eb08c758ac6924baeb0bfabf836415af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 23.prefab using Guid(eb08c758ac6924baeb0bfabf836415af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cdbf36d080fae882336c3a40c152f27') in 0.010338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 16.prefab
+  artifactKey: Guid(e7c6e7bc3bc904c709a48fe3efa1c017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 16.prefab using Guid(e7c6e7bc3bc904c709a48fe3efa1c017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ec5ae99b811feedd50fdb69e24fa4d') in 0.009638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 31.prefab
+  artifactKey: Guid(f72ba96f62477472e98a0d7b01596130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 31.prefab using Guid(f72ba96f62477472e98a0d7b01596130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6faa75a3dd6056ff2cdf60c2c62a79') in 0.009473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 3.prefab
+  artifactKey: Guid(948d3b2fc000d458a96f864e8c355062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 3.prefab using Guid(948d3b2fc000d458a96f864e8c355062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8779e9242736a19b199dc4f6204a27e') in 0.009827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 27.prefab
+  artifactKey: Guid(934d54a94c4ed4caf8c4b6e606c53a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 27.prefab using Guid(934d54a94c4ed4caf8c4b6e606c53a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0307a55ccefad3f99b050aeeaebde44') in 0.009652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 30.prefab
+  artifactKey: Guid(f4ccb31dc0aec4ac29ae050b38172dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 30.prefab using Guid(f4ccb31dc0aec4ac29ae050b38172dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bcecae9bcd441b6bbd80c66387252e') in 0.010643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 10.prefab
+  artifactKey: Guid(5acc88fe5d995417ab9676f62b440cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 10.prefab using Guid(5acc88fe5d995417ab9676f62b440cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48eb704f68b2996d0636052ed46c2b06') in 0.009200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 3.prefab
+  artifactKey: Guid(287948de4c1e54e2788ceee6772b8a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 3.prefab using Guid(287948de4c1e54e2788ceee6772b8a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99bab14e5d96f0930cfb50bc2645c02a') in 0.009423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 12.prefab
+  artifactKey: Guid(8bd6792841fb14e1ab4d185aa83eb17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 12.prefab using Guid(8bd6792841fb14e1ab4d185aa83eb17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1393f99b6ead13e9e0d06dba83626904') in 0.008859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 4.prefab
+  artifactKey: Guid(f04b5750432ba460fbdb31e7ecec268f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 4.prefab using Guid(f04b5750432ba460fbdb31e7ecec268f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8ffab7f262e1fe3e586c5c3b407e02') in 0.009975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefabs/Tiles/Water Tile 1.prefab
+  artifactKey: Guid(3cb83b3403ee44f1a93178b40be7af99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Water Tile 1.prefab using Guid(3cb83b3403ee44f1a93178b40be7af99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9238b28e4e2d03804b093f28582d2abf') in 0.009494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 29.prefab
+  artifactKey: Guid(04ff91ce59ada42bd8f229ea914a5be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 29.prefab using Guid(04ff91ce59ada42bd8f229ea914a5be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ace85f23c7b69c893a8d08e4f3cd86') in 0.009116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 9.prefab
+  artifactKey: Guid(c136637489eff4acf80b198192b6de7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 9.prefab using Guid(c136637489eff4acf80b198192b6de7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cff0cf75aed09f6fe2ccfec0cc96c2') in 0.009090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 16.prefab
+  artifactKey: Guid(ffee851e9255941aebe69817e562d4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 16.prefab using Guid(ffee851e9255941aebe69817e562d4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a29fd519c737fd809d753b7658c69e') in 0.009080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile.prefab
+  artifactKey: Guid(01b56c3e02d62465b9de20bca82ceedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile.prefab using Guid(01b56c3e02d62465b9de20bca82ceedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4801aebf857747e304e21aaa3a83e2b5') in 0.009090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 3.prefab
+  artifactKey: Guid(80559829b4467491aa519f5eada23267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 3.prefab using Guid(80559829b4467491aa519f5eada23267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30dbaf693899d7b816b9975f405d2c07') in 0.008978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Prefabs/Tiles/Water Tile.prefab
+  artifactKey: Guid(fbd275c1c1da74cd4aba5f05949172a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Water Tile.prefab using Guid(fbd275c1c1da74cd4aba5f05949172a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00cb3130949dd390e370092db00266e') in 0.009111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 4.prefab
+  artifactKey: Guid(2155647afc4fb4b749d4c07b0dfc3e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 4.prefab using Guid(2155647afc4fb4b749d4c07b0dfc3e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac626131f011faff82da8a20f0379503') in 0.009080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 23.prefab
+  artifactKey: Guid(d43424096c46a47d89c55ee895c4b4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 23.prefab using Guid(d43424096c46a47d89c55ee895c4b4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c994a042afb46a16b6aa2d0c5320163d') in 0.009415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 14.prefab
+  artifactKey: Guid(caf58b02783d9477aabc1c4f5fa6cbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 14.prefab using Guid(caf58b02783d9477aabc1c4f5fa6cbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7ee24ea4bb91d8038161f57ca1c993') in 0.009864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 23.prefab
+  artifactKey: Guid(4df0f1d6a38ea45df803ab7f682d28d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 23.prefab using Guid(4df0f1d6a38ea45df803ab7f682d28d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01a7ccd349f8fe58d3912f93b74f7da') in 0.009845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 15.prefab
+  artifactKey: Guid(8711373455caa435faa92c69d1db1d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 15.prefab using Guid(8711373455caa435faa92c69d1db1d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5b5b5b4d88e6ce818b35c968f6d925') in 0.009605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 12.prefab
+  artifactKey: Guid(6e361ecf30b0247ceb271aaced23737e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 12.prefab using Guid(6e361ecf30b0247ceb271aaced23737e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a99de28170d99f8eb96fc76007b46e') in 0.009921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 24.prefab
+  artifactKey: Guid(7028f23bd27a4488f91deb06b543fa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 24.prefab using Guid(7028f23bd27a4488f91deb06b543fa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765e2d67ba078a6975c6a30b72998e49') in 0.009882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 37.prefab
+  artifactKey: Guid(c2cc013b7b38349679ce4d1b09fa6ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 37.prefab using Guid(c2cc013b7b38349679ce4d1b09fa6ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894f8be5d5eb2347318e3e035092f661') in 0.009214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/Tiles/Water Tile 9.prefab
+  artifactKey: Guid(dd48eae30e93f4361bebce46b64ea6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Water Tile 9.prefab using Guid(dd48eae30e93f4361bebce46b64ea6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263b5c21a7612490aa155a336a70cc06') in 0.010487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 22.prefab
+  artifactKey: Guid(8a89384f42528404489b742a7ab0b0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 22.prefab using Guid(8a89384f42528404489b742a7ab0b0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65da3ea6149393b51be37e00f266124') in 0.009206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Prefabs/Tiles/Water Tile 4.prefab
+  artifactKey: Guid(1fb34f8f431a248b0994dc34616fa000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Water Tile 4.prefab using Guid(1fb34f8f431a248b0994dc34616fa000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21dd69ab386b31e0dd3536cd3fb1807') in 0.008753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 18.prefab
+  artifactKey: Guid(f9ed3a72d31e341f08fd96a6e8bbe304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 18.prefab using Guid(f9ed3a72d31e341f08fd96a6e8bbe304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd525427db416f67ef7447b35db55eeae') in 0.009008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Prefabs/Tiles/Water Tile 6.prefab
+  artifactKey: Guid(af462b1a903db4013a8f67ec720e662c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Water Tile 6.prefab using Guid(af462b1a903db4013a8f67ec720e662c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71bd67bb4cb8e5bbc150e5ede1627fb7') in 0.009201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 1.prefab
+  artifactKey: Guid(13df03e07bb6c429ba76d8bf83a81309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 1.prefab using Guid(13df03e07bb6c429ba76d8bf83a81309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d392d5c9449671db540672a3235292') in 0.009066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 13.prefab
+  artifactKey: Guid(af1381db374e141ccb6d32a0f773fdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 13.prefab using Guid(af1381db374e141ccb6d32a0f773fdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f07a3c75c1762a29cacb37db8f70eb') in 0.009659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 24.prefab
+  artifactKey: Guid(404f03761c3434e29b96b66ae5c65766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 24.prefab using Guid(404f03761c3434e29b96b66ae5c65766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469bdfff754a43b0b3b816bc217b72e3') in 0.009115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 25.prefab
+  artifactKey: Guid(ee54863c1991047a9b8b78846c34c751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 25.prefab using Guid(ee54863c1991047a9b8b78846c34c751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e723dade2170d01229e2c21f78d8d3c0') in 0.009558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 11.prefab
+  artifactKey: Guid(d56dc21b5e4af49d8b5aad02c8663e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 11.prefab using Guid(d56dc21b5e4af49d8b5aad02c8663e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0055fb348069c66e32156b98aa44be') in 0.010080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 36.prefab
+  artifactKey: Guid(aa7bdf66b48074c7e8078040ace679c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 36.prefab using Guid(aa7bdf66b48074c7e8078040ace679c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d5fe24c8718be7b47483dab30d60b6') in 0.009422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 21.prefab
+  artifactKey: Guid(ba1b449653a014968b2cccd60c309f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 21.prefab using Guid(ba1b449653a014968b2cccd60c309f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f7c990fce15be6ba6ea66e4f01a89c') in 0.009694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 9.prefab
+  artifactKey: Guid(1adad1b72da9f44e6a9aa769644a9179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 9.prefab using Guid(1adad1b72da9f44e6a9aa769644a9179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b11a630b8e5e3c4acbd338ab315abcc') in 0.009537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 26.prefab
+  artifactKey: Guid(e16484f0902b1482ba17b1a0d8b39b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 26.prefab using Guid(e16484f0902b1482ba17b1a0d8b39b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376e2f792239fc642691c75e706b82e0') in 0.009452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 6.prefab
+  artifactKey: Guid(348569ca654374557af81bc423b750e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 6.prefab using Guid(348569ca654374557af81bc423b750e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a2f7ce6dca1516b930b5f0f5bb7218') in 0.010032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 19.prefab
+  artifactKey: Guid(02bfe62c832c045c8be4ebb8c5d20174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 19.prefab using Guid(02bfe62c832c045c8be4ebb8c5d20174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70b970882d985317f01ecf62ed12be8') in 0.009273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 12.prefab
+  artifactKey: Guid(d01363ba351504ebe8e5a1a41521ecfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 12.prefab using Guid(d01363ba351504ebe8e5a1a41521ecfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04094a5ae43ec523b7af86ddc29cb32a') in 0.009844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 32.prefab
+  artifactKey: Guid(390c281fe219548a3b4ff3b96fe44afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 32.prefab using Guid(390c281fe219548a3b4ff3b96fe44afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffdbc7f0df0f6cfaa37db4769193cb17') in 0.008900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 34.prefab
+  artifactKey: Guid(7e787c91ce5484a3aa00fc1de48d3ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 34.prefab using Guid(7e787c91ce5484a3aa00fc1de48d3ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88dc6e53f6638d84c470c406264cf7c7') in 0.009300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 11.prefab
+  artifactKey: Guid(db22bcba21f5a4a22b8976c52fdf389b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 11.prefab using Guid(db22bcba21f5a4a22b8976c52fdf389b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a4f96c857c7a38c68c7b2b8fe40d40') in 0.009460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 26.prefab
+  artifactKey: Guid(a49734a9953464089aba0482bfcd0b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 26.prefab using Guid(a49734a9953464089aba0482bfcd0b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2671321c721b2f1245a6bdb667d12f') in 0.009193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 14.prefab
+  artifactKey: Guid(c35d9de80f6314f51900d0e1de23759b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 14.prefab using Guid(c35d9de80f6314f51900d0e1de23759b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ee8d98b2a1e5740e6515543616bda1') in 0.009409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 24.prefab
+  artifactKey: Guid(327a52ba9def44b0091c0b68000411d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 24.prefab using Guid(327a52ba9def44b0091c0b68000411d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c742756d8f6e98bbed9be53b4e9ab5df') in 0.009167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 11.prefab
+  artifactKey: Guid(40a96956ca4424727bf2f18920f9ea1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 11.prefab using Guid(40a96956ca4424727bf2f18920f9ea1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc72d413dd7c8571b4a91ac9082ee9ee') in 0.009045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 25.prefab
+  artifactKey: Guid(bf0e98b78c88d4306b199baab6360883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 25.prefab using Guid(bf0e98b78c88d4306b199baab6360883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd136d87e325b2bc0cb80cc524b12d944') in 0.009397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 18.prefab
+  artifactKey: Guid(0e430d07073db4cc1bbe5db4c939f740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 18.prefab using Guid(0e430d07073db4cc1bbe5db4c939f740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3e0858fac8a796e800941243627ccf') in 0.009498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 19.prefab
+  artifactKey: Guid(a309dc0f26a044c949c6098954d0bd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 19.prefab using Guid(a309dc0f26a044c949c6098954d0bd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b9e4ea1143108428e166c66628314b') in 0.009191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 28.prefab
+  artifactKey: Guid(cd4df169fbe47445da98116239269793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 28.prefab using Guid(cd4df169fbe47445da98116239269793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aacf9867f0c7824f791406b48593b794') in 0.010577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 17.prefab
+  artifactKey: Guid(271dd92027c8d40c398b2e6fe34b40e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 17.prefab using Guid(271dd92027c8d40c398b2e6fe34b40e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b2775fbb5e2ecd8a9da20385891139') in 0.009454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 20.prefab
+  artifactKey: Guid(df42b9bdad0a64fe09990d941b0ace72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 20.prefab using Guid(df42b9bdad0a64fe09990d941b0ace72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4dde4c9a888849433cc107b4e3a84d') in 0.009452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 8.prefab
+  artifactKey: Guid(fd42b5a28a7e14bbf9406ce5b16a5b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 8.prefab using Guid(fd42b5a28a7e14bbf9406ce5b16a5b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc378569735b4edb2e3be28541969df7') in 0.009369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 27.prefab
+  artifactKey: Guid(13e42462eba394197b126b4e41e80a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 27.prefab using Guid(13e42462eba394197b126b4e41e80a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc68be5040b55eb16887634d98165687') in 0.009299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 15.prefab
+  artifactKey: Guid(f5c892aea1617492699a269a92b9606e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 15.prefab using Guid(f5c892aea1617492699a269a92b9606e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1b93f3c09861d68c490cf5e6a95564') in 0.009779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 28.prefab
+  artifactKey: Guid(cb7928f366aff45b1a194ce312c4044a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 28.prefab using Guid(cb7928f366aff45b1a194ce312c4044a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e9bd65ef4879dcb6ce68c8b71ebef7') in 0.009391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 21.prefab
+  artifactKey: Guid(e16f28ec9021b4f4c9460766a1d1be2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 21.prefab using Guid(e16f28ec9021b4f4c9460766a1d1be2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b430a8b8c32418bca5343a3740be7d6b') in 0.009957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 16.prefab
+  artifactKey: Guid(c964002b615c74890a237ce08f76f06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 16.prefab using Guid(c964002b615c74890a237ce08f76f06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a04db60ffa9569c2fa02996a5d3872') in 0.009641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 2.prefab
+  artifactKey: Guid(07eabdf7a8a1a47f3869e366880facc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 2.prefab using Guid(07eabdf7a8a1a47f3869e366880facc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8294fc562e21a6d1699f9f5225f844d6') in 0.009440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 17.prefab
+  artifactKey: Guid(bf4cfc2bbfa4c4994b16a704cba31060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 17.prefab using Guid(bf4cfc2bbfa4c4994b16a704cba31060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8252884890bcb9818ce07c76ad8b522c') in 0.009278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 33.prefab
+  artifactKey: Guid(5b1645fa3cfa54f2fa78350112247e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 33.prefab using Guid(5b1645fa3cfa54f2fa78350112247e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d1043ec58f639f3cf6d43153f004e1') in 0.009752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 13.prefab
+  artifactKey: Guid(c45f818a888a34ae9b453f52b7347974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 13.prefab using Guid(c45f818a888a34ae9b453f52b7347974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fceca473cd9f3e2e5c4212cbaaac8bc8') in 0.009665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 17.prefab
+  artifactKey: Guid(1e74fc6f1da3547fb8667d3fbd6e7c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 17.prefab using Guid(1e74fc6f1da3547fb8667d3fbd6e7c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4de2c6c0c84137ab0529242bb9498e') in 0.010177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 35.prefab
+  artifactKey: Guid(e4587a3e7b8414575a8ced94b045cac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 35.prefab using Guid(e4587a3e7b8414575a8ced94b045cac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6b6cc20c8b159a91d4ef7d9ce22510') in 0.009373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 2.prefab
+  artifactKey: Guid(bbc4dd024363a41c1a659ae2620cd8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 2.prefab using Guid(bbc4dd024363a41c1a659ae2620cd8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b8e2496447f133bc8a30e5a2c9ce93') in 0.009045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 10.prefab
+  artifactKey: Guid(e7c6708d3225b4d3ba8f3148045ba83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 10.prefab using Guid(e7c6708d3225b4d3ba8f3148045ba83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ab8a26c6132236219bc7a53073033b') in 0.009578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 7.prefab
+  artifactKey: Guid(3697763e6a6bf4830bfb0a984c3d5842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 7.prefab using Guid(3697763e6a6bf4830bfb0a984c3d5842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29304f361592b0c8e872e5a37e6f1c81') in 0.009211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 6.prefab
+  artifactKey: Guid(e0fbdd3dcdbf94bd181c45162d50b565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 6.prefab using Guid(e0fbdd3dcdbf94bd181c45162d50b565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9168fb694aca415c0048cba274447cfe') in 0.010198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 25.prefab
+  artifactKey: Guid(7b12ed934964d4d8d846c147ad3ca48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 25.prefab using Guid(7b12ed934964d4d8d846c147ad3ca48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32070245f083b9cb0192686a26613406') in 0.009035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 20.prefab
+  artifactKey: Guid(89804abce14a14af898fc68fcffc88a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 20.prefab using Guid(89804abce14a14af898fc68fcffc88a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba05b0027698cd63fe3460911f790ba5') in 0.009543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/Tiles/Water Tile 5.prefab
+  artifactKey: Guid(fa0036b2e4899464497f0ff1a06fca5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Water Tile 5.prefab using Guid(fa0036b2e4899464497f0ff1a06fca5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70050f146db86888e7e8a1eb86a544ad') in 0.009376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/Tiles/Water Tile 10.prefab
+  artifactKey: Guid(9a9e5c70e27614eb69becf050bd337af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Water Tile 10.prefab using Guid(9a9e5c70e27614eb69becf050bd337af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e125ff00c40922edb2832ade90ec97ca') in 0.008842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 5.prefab
+  artifactKey: Guid(5bdd4b5bc0207450bb8e597901225e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 5.prefab using Guid(5bdd4b5bc0207450bb8e597901225e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2978817bddc10813c9041830843a17ce') in 0.009117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 29.prefab
+  artifactKey: Guid(52fdaedd7f2654cecbc26ae74680b5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 29.prefab using Guid(52fdaedd7f2654cecbc26ae74680b5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ea90ac5c542f7cb5d63d9c5c3acb75') in 0.009346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 6.prefab
+  artifactKey: Guid(086c5b224ab334fce8636f01f6407bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 6.prefab using Guid(086c5b224ab334fce8636f01f6407bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b4ef99418ae77465d8ccfbbab1dff8') in 0.008874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 19.prefab
+  artifactKey: Guid(895da46e7092b42a196c658345cfd965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 19.prefab using Guid(895da46e7092b42a196c658345cfd965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d301c5c06c57948628b0c7865cae50') in 0.009226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 15.prefab
+  artifactKey: Guid(08d9a1474a84f480d9887fbfe8734864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 15.prefab using Guid(08d9a1474a84f480d9887fbfe8734864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c444879e59b1571428539b6f947059') in 0.009116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 31.prefab
+  artifactKey: Guid(c5ec21b6e5f1640948a66c573f032066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 31.prefab using Guid(c5ec21b6e5f1640948a66c573f032066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d550e78c6bd9b896be8e7ed9aa1ed91') in 0.009939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Prefabs/Tiles/Water Tile 8.prefab
+  artifactKey: Guid(ce7009a2f15704c538db100c59a322b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Water Tile 8.prefab using Guid(ce7009a2f15704c538db100c59a322b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3358279f63b808a63d86ad431580410') in 0.008649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 20.prefab
+  artifactKey: Guid(40f001b42c2cc40098648faf63b72647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 20.prefab using Guid(40f001b42c2cc40098648faf63b72647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be3df1a74378647b14a23531ae85139') in 0.008973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 10.prefab
+  artifactKey: Guid(31e2b9bc4450d43b08b633c64790585a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 10.prefab using Guid(31e2b9bc4450d43b08b633c64790585a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60f6ded027300d8200df71a44f9e3a8') in 0.008854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile.prefab
+  artifactKey: Guid(96a9bde5122b0476f9ce9cff639d2c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile.prefab using Guid(96a9bde5122b0476f9ce9cff639d2c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850504e13728a563f186e0552174bd7e') in 0.008810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 9.prefab
+  artifactKey: Guid(201cf06ba01644f799a99bf9034dce2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 9.prefab using Guid(201cf06ba01644f799a99bf9034dce2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11141e7b97d609576ecd6c90cfdb10e4') in 0.011065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 22.prefab
+  artifactKey: Guid(fec10977f803a45e8980b51be53af793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 22.prefab using Guid(fec10977f803a45e8980b51be53af793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85a6c56b3e95ddaa5599af665b31005') in 0.009454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 5.prefab
+  artifactKey: Guid(4f2f716e4666340b9a2c4f7886547578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 5.prefab using Guid(4f2f716e4666340b9a2c4f7886547578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6c6ef5aedd5b4da1698ce9ef146753') in 0.009097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 26.prefab
+  artifactKey: Guid(8a5866b316bf74f4ab5298f2bbdc6733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 26.prefab using Guid(8a5866b316bf74f4ab5298f2bbdc6733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec5403aba091c1d193979826fb7f698') in 0.009604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 27.prefab
+  artifactKey: Guid(5be6cdcaacafc4ce8bb1d1c2f03346d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 27.prefab using Guid(5be6cdcaacafc4ce8bb1d1c2f03346d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba9603754cf763288755e469cf65ad7') in 0.009697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Prefabs/Tiles/Water Tile 7.prefab
+  artifactKey: Guid(b3d58b7a918fa403f958d37806924384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Water Tile 7.prefab using Guid(b3d58b7a918fa403f958d37806924384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1814bce228b53188680322239f3123') in 0.009071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs/Tiles/Water Tile 2.prefab
+  artifactKey: Guid(82c3de0911d744478be6cd6fd4cd6d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Water Tile 2.prefab using Guid(82c3de0911d744478be6cd6fd4cd6d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de9cb00ea80d80ef1f1e758a57d912e') in 0.009084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 8.prefab
+  artifactKey: Guid(e2e9bb6bb81fe4adf9192e5fc75a3451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 8.prefab using Guid(e2e9bb6bb81fe4adf9192e5fc75a3451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c201e31870a3cce391e0423a5fd87f24') in 0.009183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Prefabs/Tiles/Grass Tile 18.prefab
+  artifactKey: Guid(d2f909514b7a04974b72a74273f0a415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Tile 18.prefab using Guid(d2f909514b7a04974b72a74273f0a415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ea2ea5f4e91f552b9665464d0662e7') in 0.009416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile.prefab
+  artifactKey: Guid(49c22faf8a72748d99dea0f38834ff0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile.prefab using Guid(49c22faf8a72748d99dea0f38834ff0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c66c5b1afff8f20d8eef92164f69a2e') in 0.009061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Prefabs/Tiles/Water Tile 3.prefab
+  artifactKey: Guid(7453ef87bc7cc4bceaae0aced11b5ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Water Tile 3.prefab using Guid(7453ef87bc7cc4bceaae0aced11b5ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e760b6807d2bb794ecacb048b0f3f0f5') in 0.009336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Prefabs/Tiles/Grass Dirt Tile 7.prefab
+  artifactKey: Guid(80d8f02148e3f48288fc9dafeabe5210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Grass Dirt Tile 7.prefab using Guid(80d8f02148e3f48288fc9dafeabe5210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bf8c839adcb189d4adb37e034da349') in 0.009165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Prefabs/Tiles/Rock Tile 30.prefab
+  artifactKey: Guid(afd3698110e76435db1e9c8c23ef0099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Rock Tile 30.prefab using Guid(afd3698110e76435db1e9c8c23ef0099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd410edb5cfc592627ddc45b73a0f96b8') in 0.009062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 666.268664 seconds.
+  path: Assets/Editor
+  artifactKey: Guid(8b239de51f3e34a349ea2f55eff84e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(8b239de51f3e34a349ea2f55eff84e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0929c2571e50db4a93a68bb93c5494') in 0.003099 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002527 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /goinfre/dcloud/ProjectFolder/Dcloud_d02/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /goinfre/dcloud/ProjectFolder/Dcloud_d02/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.528 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2529ms)
+		BeginReloadAssembly (353ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (116ms)
+		EndReloadAssembly (2013ms)
+			LoadAssemblies (1325ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (367ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 28.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4046 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (22.1 KB). Loaded Objects now: 4935.
+Memory consumption went from 280.8 MB to 280.8 MB.
+Total: 3.859384 ms (FindLiveObjects: 0.405580 ms CreateObjectMapping: 0.240247 ms MarkObjects: 3.158881 ms  DeleteObjects: 0.053249 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
